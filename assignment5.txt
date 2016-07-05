@@ -1,0 +1,10 @@
+Jack Rosen
+1. int main() {
+	int a = 0, c = 0;
+	float b;
+	fxn(a,b,c);
+	return 0;
+}
+My code would look like this. I would instantiate the variables and then call the function.
+2. An iteration uses loops to continue going but a recursion calls itself to keep it going. There are times where iteration can take longer and times where recursion can use up more storage. Recursion can be worst because if it is endless because it keeps taking up more space.
+3. A compiler changes the code from the high-level language to assembly. It checks the whole code for syntax errors and will alert you of the errors.
