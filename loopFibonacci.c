@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* Jack Rosen. The purpose of this code is to do the Fibonacci sequence with loops*/
 int main()
 {
 	int answer = 0, amount, incrementer = 1;
