@@ -11,6 +11,7 @@ To gain experience writing functions and using recursion.
 ### Part 2
 
 In a text file `assignment5.txt`, answer the following questions:
+
 1.  How would you call the following function?  Give an example of what it would look like written inside of the main() function and explain your code in detail.
   
 ```
