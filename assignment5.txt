@@ -1,0 +1,19 @@
+Julia Tan
+
+1. One way to do it is:
+int main(){
+	int execute;
+	execute = fxn(3, 4.55, 6);
+	return 0;
+}
+The execute variable is used to call the function.
+3, 4.55 and 6 are all numbers to pass the parameters set by the function.
+
+2. Differences between recursion and iteration
+- A recursion uses more memory than iteration
+- Recursions make the solution more elegant and readable than an interation
+- Recursive functions are less efficient than loops because it takes longer
+- Recursive functions have a 'base case' to determine where to stop recursing, while iterations do not
+- recursive functions can always become iterative ones, but not all iterations are recursions
+
+3. A compiler converts a program from a human-readable format into a machine-readable format. It does this by translating the source code from a programming language into executable code.
