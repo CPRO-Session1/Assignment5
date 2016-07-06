@@ -1,0 +1,16 @@
+Assignment 5 Sheqi Zhang
+1.  How would you call the following function?  Give an example of what it would look like written inside of the main() function and explain your code in detail.
+  
+```
+	int fxn(int a, float b, int c)
+```
+Answer:
+int call = fxn(a,b,c)
+
+2.  Explain the difference between recursion and iteration.  When/why is one preferable over the other?  Why is recursion worse in other cases?
+Answer:
+Recursion is the function that call itself. Iteration is a repitition of process. Recursion is short and simple, while iteration is faster, and also takes less memory.
+
+3.  How does a compiler work?  Explain step by step.
+A compiler translates the high-level programming language like c to excutable code, which can be read by the computer. It first break up the text into "tokens", then converse these tokens into parse tree. Next, it evaluate constant expressions, and finally, it translate the parse tree into machine instructions.
+
