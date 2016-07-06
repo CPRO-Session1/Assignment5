@@ -1,0 +1,29 @@
+Sean Kee
+
+1. You would call the function by doing fxn(arg1, arg2, arg3). If you wanted to store the return value, you would do int variable = fxn(arg1, arg2, arg3)
+***EXAMPLE***
+int main()
+{
+	int people; //Creates Initial Variables
+	float cost;
+	int candyBars;
+
+	printf("Input number of people\n#: "); //Takes input for all the variables
+	scanf("%d", &people);
+	printf("Input the number of Candy Bars being bought\n#: ");
+	scanf("%d", &candyBars);
+	printf("Input the cost of one(1) candy bar\n#: ");
+	scanf("%f", &cost);
+
+	printf("The cost per person for %d candy bars is around: %d\n", candyBars, fxn(people, cost, candyBars); //Calls the fxn function to calculate price per person, then prints the returned value
+
+	return 0;
+***END EXAMPLE***
+
+2. The difference between recursion and iteration is that recursion occurs in a separate function, calling back on itself until the process is finished. Iteration is usually preferred over recursion because in big processes, recursion can hog tons of memory. However, when it comes to small clocks etc, both perform relatively the same.
+
+3. A complier essentially translates the programming language code into machine code.
+i. Process all header files
+ii. Process functions/variable in order, from top to bottom.t
+	- any function that isn't prototyped or defined before the main function will not be understood by the compiler
+	- any variable that is globally declared can be used in any function past the line where it is declared
