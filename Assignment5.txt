@@ -1,0 +1,11 @@
+1.	How would you call the following function? Give an example of what it would look like written inside of the main() function and explain your code in detail.  int fxn(int a, float b, int c)
+int main () {
+int a, c;
+float b;
+int fxn (int a, floatb, int c);
+return 0;
+}
+2.	Explain the difference between recursion and iteration. When/why is one preferable over the other? Why is recursion worse in other cases?
+The main difference between recursion and iteration is memory usage. Also, recursion performs a procedure inversely whereas iteration performs one directly, requiring the data to be stored until it is reached. 
+3.	How does a compiler work? Explain step by step.
+The source program is converted into sequence of tokens. Then, thje compiler recovers the potential errors formed during the conversion. It analyzes the meaning of the product program and generates the IR form of the program. It then optimizes the IR and generates the actual code. The compiler’s final job is to produce an optimization of the code. 
