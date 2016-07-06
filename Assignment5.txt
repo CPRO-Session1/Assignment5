@@ -1,0 +1,15 @@
+Clarke Littlejohn
+
+1) calling that function would look something like
+	fxn(x,y,z);
+	this is assuming that x y and z are all int data types adn have been initialized and everything else is declared;
+	You dont need to put an int in the parameter because that would be like put int a = int x; which is wrong you would
+	put int a = x; which is what the parameter is doing.
+
+2) iteration is a loop for/while statement. one iteration is one loop through, recursion is calling a function x in function x to get a loop.
+   recurison is iteration for functions. recursion is sometimes better than iteration because it is makes for more organized code, it can be
+   easier to code a loop in recursion, and it can better more efficent. Recursion is worse in most cases as it takes up much for memory than iteration.
+
+3)A compiler translates one code into another. From what i understand and from the slides is that it turns the source code into some lower level language
+or binary then it adds the library refence into the lower level language then creates an executable.
+
