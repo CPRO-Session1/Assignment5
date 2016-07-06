@@ -1,0 +1,4 @@
+Lloyd Page
+1. fxn(a,b,c); where a is an int, b is a float, and c is an int. Also, fxn must have been declared above the main.
+1. Iteration is the use of loops to do an action. Recursion is the action of calling a function within its self to do something. Generally speaking loops are preferrable as they use less memory and are more efficient, as the function calls are not necessary, however certain things like quick sort are impossible without recursion, so it is used there. Recursion is also much easier to read, so ocassionally, despite its inefficiency, Recursion is used
+2. A compilier Reads the instructions in C, at times modifying the code for optimization. This c code is transformed into Assembly, with comments and whitespace being disregarded. From Assembly, it is run through another compilier, transforming it into machine code, which the computer can easily understand.
