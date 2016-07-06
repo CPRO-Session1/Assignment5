@@ -1,0 +1,13 @@
+1. The function is called in main by typing: fxn(a,b,c). a,b,and c are integers used for whatever the instructions are in the fxn(). E.g.
+int fxn(int a,int b, int c){
+a=a+b+c;
+return a;
+}
+int main (){
+int a=1,b=2,c=3;
+a=fxn(a,b,c);
+printf("%d",a);
+}
+this code tells the program to go to the function and do the equation while returning a value. Then the integer a in main will equals the value. This is just how to call the function.
+2. In recursion, the function calls itself over and over again until the condition is met. Iteration is the repetition of a particular process until the process fails or equals false. Recursion requires less code but more memory than the other. However, recursion is a lot slower because it is stacking one condition over another. Recursion's condition has to be met, if not the code will run on and on until it runs out of memory. Most importantly, iteration is capable of performing all loops while recursion cannot. 
+3. Stage one is pre-processing, everything is substituted and comments are removed too.  Gcc starts and invokes the GNU C compiler and there are many versions of it. Then, the file will compile in high level language. Then this is good for the assembly to convert it to machine level language, which humans cannot understand if printed out. This will creat it into an object file. finally, the program will link all the functions together inside the program to make the code complete. 
