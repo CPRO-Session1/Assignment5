@@ -1,0 +1,16 @@
+Aly Milich
+
+1. int main(){
+	int a, c;
+	float b;
+
+	fxn(a, b, c);
+
+	return 0;
+}
+
+The variable types all need to match the parameters of fxn which is why a and c are declared as ints while b is a float. From there, you can call the function by using the name and then what you would like to pass through (in this case a, b, c).
+
+2. Iteration is the repetition of a command through the usage of loops and statements. Recursion uses repeated actions to carry out a procedure by calling itself and requires a base case to evaluate from. Both are useful and can be beneficial in different scenarios. Sometimes it is easier for the computer to calculate an output through iteration and sometimes it is more efficient to use past values/calculations to produce the next output (recursion). For example, fibonacci numbers make much more sense to evaluate recursively while the sum of the natural numbers is slightly more intuitive iteratively.
+
+3. A compiler changes a code from high-level language to assembly so that the computer can execute the function. There are different types of compilers that understand different languages and then convert them to assembly. Compilers catch any syntax errors that prevent the code from being converted and make the code readable for the computer. 
