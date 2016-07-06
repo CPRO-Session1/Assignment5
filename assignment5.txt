@@ -1,0 +1,22 @@
+Emma Ladouceur
+
+1. In order to call that code you'd have to set it equal to a variable. So
+
+	i = fxn
+
+	now set the arguments so
+
+	i = fxn(1,2,3)
+
+	if you have scanned for variables, rather than set those to exact numbers such as 1 2 and 3 you would input those variables, so
+
+	i = fxn(var1, var2, var3)
+
+	to print that you just use a print statement with i so
+
+	printf("%f", i);
+
+
+2. Recursion goes through the previous numbers in the sequence and can use those whereas iteration is a loop. It will run over the numbers the amount of times you set it to until it breaks whereas iteration has to do with being greater than zero. Iteration is a task that you set whereas recursion combines the results. 
+
+3. A compiler breaks the code into a language that the computer understands. First it takes the code and puts it in assembly language. Thats why each language's compiler is different because the language to assembly transition is very specific. THen it takes assembly and translates it to binary which the computer can understand. 
