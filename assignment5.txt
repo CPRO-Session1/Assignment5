@@ -1,0 +1,11 @@
+Rumeet Goradia
+1. In order for the function to be called, there need to be enough variables so as to fill in the arguments for the function. In this case, you need at least one int and one float variable. To call the function, you could initialize a variable such that its value is equal to the return value of this function using variables from the int main () function as the custom function's arguments. An alternative would be to simply type the function name along with the variables to be used as the arguments. Here's an example of the first option, assuming that int fxn has already been defined and all necessary header files are included:
+	int main()
+	{
+		int a, b;
+		float c;
+		int d = fxn(a, c, b);
+	}
+As can be seen, the variable to which the return value of the custom function is assigned must have the same data type as the custom function; that is why 'd' is an int. The integers 'a' and 'b' fill in the first and third arguments of the custom function, which must be ints. 'c' is used as the second argument since that argument must be a float.
+2. Recursion occurs when a function calls upon itself. Iteration utilizes a loop until a certain condition fails to be met. Iteration involves intialization, condition, execution, and updation, whereas recursion only needs a "base case" to operate. Recursion can be sometimes preferable over iteration if the programmer wishes to keep his or her code shorter and simpler; it is mostly used to solve complcated problems when its application is easy and effective. However, recursion can't be used to solve all iteration problems, but most recursion problems can be fixed with iteration. Recursion is not as fast as iteration because recursive functions have to keep function records in memory, causing them to take up both time and space. 
+3. A compiler essentially translates the code of a program  from a certain programming language to executable code. The first step is translating the high level language, like FORTRAN, C, Pascal, etc., into assembly language. Assembly language is what assemblers use; an assembler is a computer program that translates this assembly code into binary. Since machines like computers operate in binary, any instructions they receive must also be in binary. So, after an assembler is finished doing its job, the computer will run the program.
