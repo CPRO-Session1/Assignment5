@@ -1,0 +1,11 @@
+1. call it by typing fxn(a, b, c) where a, b, and c would be constants or variables inputted by the user. It could look like this...
+
+void main() {
+	printf("Enter a number: \n");
+	scanf("%d", a);
+... and then two more lines with b being a float and c being an int.
+	}
+
+2. Iteration is when a loop runs a certain amount of time in order for something to happen while recursion is a function calling itself that updates a counting variable but not changing the variable you want to change at the end. Recursion is not ideal because it takes more memory.
+
+3. A compiler translates the code you wrote into machine language that the computer can break down into binary and understand and finally compute.
