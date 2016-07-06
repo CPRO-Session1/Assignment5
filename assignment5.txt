@@ -1,0 +1,15 @@
+Ava N.
+July 5, 2016
+Assignment 5
+
+1. I would call int fxn(int a, float b, int c) by:
+main(){
+	int a, c;
+	float b;
+	int fxn(int a, float b, int c)
+	return 0;
+}
+
+2. Recursion is when a function calls itself. Iteration is the repitition of a process or something, which can also be refered to as a loop. The best process to use, whether it is recursion or iteration depends on the circumstance. Iteration keeps going until the loop is complete while recursion solves a problem one at a time.  Recursion is worse in other cases because it takes up more space and time...
+
+3. A compiler works by taking 'High-level language' such as C, C++, and Java, and putting it through a compiler (gcc) to make an assembly. 
