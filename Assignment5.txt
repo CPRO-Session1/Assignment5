@@ -1,0 +1,9 @@
+1. I would call it first by creating 2 ints and a float
+	int a = 0;
+	float b = 0;
+	int c = 0;
+then calling it in the main() function like this
+	int d = fxn(a, b, c);
+because the function is returning an int, I want to assign it to a variable d. a, b, and c are the arguments.
+2. Recursion is a function calling itself, iteration would be a piece of code running over and over again. Sometimes recursion is more elegant and simple, but a lot of times takes up more memory as each function call requires some memory.
+3. A compiler takes the code and translates it into assembly, which then goes through an assembler to translate it into binary.
