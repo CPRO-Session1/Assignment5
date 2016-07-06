@@ -1,0 +1,30 @@
+Caleb Gershengorn
+
+1:
+You would call the function by typing fxn(a,b,c) where a,b,c would be constants or variables inserted by the user.
+It might look something like this:
+void main(){
+	printf("enter a number\n");
+	scanf("%d",&a); \\These two lines take in an int as 'a'
+	printf("enter a float\n");
+	scanf("%f",&b);  \\These two lines take in an float as 'b'
+	printf("enter another number\n");
+	scanf("%d",&c); \\These two lines take in an int as 'c'
+	printf("%d\n", fxn(a,b,c); \\calls the fxn function and prints the result using %d because fxn calls for an int
+	\\This would call the fxn and use the three values the user entered to run the function
+	}
+
+2:
+Iteration is running a loop a certain number of times in order to achieve a certain result, updating the value of a variable every time the loop runs and returning a new value when the loop runs.
+Recursion is a process that involves a function calling itself a certain number of times, updating a counting variabl but not updating the variable that you want to change until the end.
+Once the recursive function reaches its end, it remembers how many times it has run, and runs itself that many times, updating the variable each time.
+Loops are preferable in instances when the variables are simple to sort through, but recursion is useful when you might have to check a certain value again or when something is a function of itself, like a tree.
+Recursion is often not preferable because calling a function takes more space in memory than running an iteration, making it less efficient usually.
+
+3:
+A compiler translates the code that you write into machine language that the computer can understand.
+It first reads the preprosessor directives, which tell it to import certain libraries.
+It reads top to bottom, so it starts with either the functions that are defined at the top or the prototype functions put as placeholders to be defined later on.
+The compiler reads the data-type of the function and checks to make sure at the end of the function that that same data-type is returned, or an error pops up.
+Additionally, it stores anything that was told to be stored along the way, such as global variables and constants, and adjusts the data types to their correct storage class
+Finally, it turns all of this into machine language, so that it can be run, and prints out any errors that came along the way as error messages, explaining why it couldn't compile.
