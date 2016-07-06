@@ -1,0 +1,23 @@
+Olivier Gabison
+
+1. I would call it by doing printf("%d", fxn(1, 2.0, 3));
+
+I would do it like this as I want to see what I am returning as well so that the parameters match the specific
+type the function wants.
+
+2. Recursion is where the function calls itself. While iteration is repetition of the process.
+Adv of Recursion:
+  Less code written
+Disadv of recursion:
+  Recursion is slower
+  Uses more memory
+  Iteration is more efficient.
+Recursion is bad when the programs are not recursive in nature. This is because it will lead to waste of memory
+and inefficiency.
+
+3.
+Step:
+1. Lexing - where the text is broken up into 'tokens'
+2. Parsing - Converting these tokens into a parse tree.
+3. Optimization: evaluate constant expressions, unroll loops if possible (optimize the code in short)
+4. Translate this parse tree into machine instructions.
