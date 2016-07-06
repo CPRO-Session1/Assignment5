@@ -1,0 +1,20 @@
+1) To call the function, it would look like this:
+
+    /* Misc stuff above the main function, including functions, function
+    * declarations, header statements (like #define and #include), and stuff
+    */
+    int main(){
+        /* we need 2 ints and 1 float to pass to the function. */
+        int a = 6;
+        float b = 0.5;
+        int c = 2;
+        /* the function returns an integer value */
+        printf("%d\n", fxn(a, b, c));
+    }
+    /* Misc stuff after the main function */
+
+2) Looping is usually better, as it doesn't require the computer to store the previous
+iterations in memory. Recursion would be preferable for things like trees, where it
+needs to go down more than one path.
+
+3) no idea.
