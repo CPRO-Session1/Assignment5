@@ -1,0 +1,18 @@
+Yael Kelmer.
+
+1. This is how you would call the function inside of the main() function:
+
+int main () {
+
+	int a = 1; /* this initializes a value for a */
+	float b = 2.5; /* this initializes a value for b */
+	int c = 4; /* this initializes a value for c */
+
+	int fxn (a, b, c); /* this calls the function fxn and uses the arguments that were initialized */
+}
+
+2. The difference between recursion and iteration is that recursion is recursive and iteration goes step by step. In terms of runtime, iteration is preferable, because it will take much less time than a recursion. In terms of lines of code, recursion will take less lines of code, so in that sense it would be preferable to use recursion. However, recursion is so slow that the extra lines of code are worth it. 
+
+
+3. A compiler reads the human-readable, high-level language and converts it to assembly, which is the lowest level language. 
+
