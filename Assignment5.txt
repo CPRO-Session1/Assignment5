@@ -1,0 +1,17 @@
+//Anya Lauria
+1.
+
+int a; 
+ifloat b;
+int c; 
+fxn(a,b,c)
+----------
+This is how I would call the code, assuming a,b and c are not global variables.
+
+2. Recursion is when a function calls itself, while iteration is when one uses loops. Recursion is easier to think 
+   about, and also more "mathematically neat". On the other hand, loops are more efficient. One can first answer 
+   a problem statement using recursion, then rewrite it using loops. Recursion also takes more memory. 
+
+3.A compiler is a program that translates code written in high level language into machine code for the computer
+  to execute. It also helps the programmer write their code without syntax errors etc. by pointing out 
+  errors. 
