@@ -1,0 +1,17 @@
+Matthew Danielson
+7/5/16
+Part 2; Questions
+
+1) 
+int fxn(int, float, int);
+int main(){
+	int a = 1;
+	float b = .1;
+	int c = 1;
+	fxn(int a, float b, int c);
+}
+The function needs to be defined before it is fully defined if main comes before it physically in the code.
+
+2) Recursion calls a function within itself until a certain criteria is met. Similarly, whne something is iterated, it goes through commands until a certain criteria is met. Typically, recursion eats up more memory than iteration, but for something like the towers, it is more efficient. However, calling a function takes far more memory than a for loop. 
+
+3) A compiler takes the code that we have written, removes the white spaces that we leave in our code. Additionally, it converts our code in higher languages into Assembly, which gives the direct commands to the mechanical computer.
