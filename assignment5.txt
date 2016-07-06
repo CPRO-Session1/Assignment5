@@ -1,0 +1,23 @@
+Justin Yu
+
+1. I would call it by:
+
+	int main() {
+	int a, c;
+	float b;
+	int fxn(int a, float b, int c);
+	return 0; 
+	}
+
+my code assigns value to integers a and c and float b, then it calls for the parameter int fxn(int a, float b, int c).
+
+1. The difference between recursion and iteration is that: although they are both about repetition, because recursion performs a procedure inversely where as iteration performs it directly, it requires the data to be stored until it reaches the final step of the procedure and work its way back. Therefore, recursion uses a lot of storage and is typically slower, which makes it worse in most cases comparing to iteration.
+
+2. The function of a compiler can be separated into seven phases.
+   1. The source program is converted into sequence of tokens.
+   2. The compiler recovers the potential errors formed during the convertion.
+   3. It also analyzes the meaning of the product program.
+   4. It generates the IR form of the program.
+   5. It optimizes the IR.
+   6. It generates the actual code.
+   7. The compiler does a final optimization of the code.
