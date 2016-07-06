@@ -1,0 +1,28 @@
+1. How would you call the following function? Give an example of what it would look like written
+inside of the main() function and explain your code in detail.
+	int fxn(int a, float b, int c)
+	Assuming that the above function works, here's what I would code for the main function:
+	int main()
+	{
+		int alpha = 1, charlie = 7;
+		float bravo = 1.572;
+		int answered = fxn(alpha, bravo, charlie);
+		return 0;
+	}
+	The function requires 2 ints and a float in its parameters, so first I declared and
+	initialized variable that fit that description in the main statement. The function
+	also has a return type of int, so I created another variable of type int to store this
+	returned value. I then returned zero so the ANSI gods would be appeased.
+2. Explain the difference between recursion and iteration. When/why is one preferable over the other?
+Why is recursion worse in other cases?
+	Recursion is when a function calls upon itself, creating an infinite sequence unless there
+	is some base case specified in which the function no longer calls itself. Iteration is
+	basically loops, like a for loop or a while loop, etc. There are a couple of reasons
+	why one would be preferable over the other. In some cases, one is more efficient than
+	the other. Oftentimes, recursive functions look cleaner and more elegant than writing out
+	a nasty dirty for loop so one would use a recursive function then.
+3. How does a compiler work? Explain step by step.
+	I don't know the specifics step by step, but what a compiler does is take the source
+	code that the user has written and converts it into machine instructions that the computer
+	can understand and do something with. These instructions are then stored in an
+	output file to be run later.
